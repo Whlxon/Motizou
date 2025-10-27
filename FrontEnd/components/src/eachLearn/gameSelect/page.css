@@ -1,0 +1,85 @@
+
+
+.elephant{
+    background-image: url('../elephant.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 0;
+    height: 120px;
+    width: 120px;
+}
+
+.elephant:hover{
+    scale: 120%;
+}
+
+.objet{
+    background-image: url('../objets.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 0;
+    height: 120px;
+    width: 120px;
+}
+
+.objet:hover{
+    scale: 120%;
+}
+
+.nourriture {
+    background-image: url('../nourriture.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 0;
+    height: 120px;
+    width: 120px;
+}
+
+.nourriture:hover {
+    scale: 120%;
+}
+
+.transport{
+    background-image: url('../transport.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: 0;
+    height: 120px;
+    width: 120px;
+}
+
+.transport:hover {
+    scale: 120%;
+}
+
+.vetement{
+    background-image: url("../vetement.png");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 0;    
+    height: 120px;
+    width: 120px;
+}
+
+.vetement:hover{
+    scale: 120%;
+}
+
+.REA{
+    background-color: rgb(255, 0, 0);
+    margin-top: 1vh;
+    bottom: 1;
+    border: 0;
+    width: 20vw;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.REA:hover{
+    background-color: rgb(196, 1, 1);
+}
+
+.listButton {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
