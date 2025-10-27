@@ -13,6 +13,16 @@ export default function Animals() {
       </div>
 
       <div className='learn'>
+
+        <button>
+
+        </button>
+        <button>
+
+        </button>
+        <button>
+
+        </button>
       </div>
       
       
