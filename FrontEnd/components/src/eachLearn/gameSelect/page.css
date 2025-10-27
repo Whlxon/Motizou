@@ -1,7 +1,7 @@
 
 
 .elephant{
-    background-image: url('../elephant.png');
+    background-image: url('../button/elephant.png');
     background-repeat: no-repeat;
     background-color: transparent;
     border: 0;
@@ -14,7 +14,7 @@
 }
 
 .objet{
-    background-image: url('../objets.png');
+    background-image: url('../button/objets.png');
     background-repeat: no-repeat;
     background-color: transparent;
     border: 0;
@@ -27,7 +27,7 @@
 }
 
 .nourriture {
-    background-image: url('../nourriture.png');
+    background-image: url('../button/nourriture.png');
     background-repeat: no-repeat;
     background-color: transparent;
     border: 0;
@@ -40,7 +40,7 @@
 }
 
 .transport{
-    background-image: url('../transport.png');
+    background-image: url('../button/transport.png');
     background-repeat: no-repeat;
     background-color: transparent;
     border: 0;
@@ -53,7 +53,7 @@
 }
 
 .vetement{
-    background-image: url("../vetement.png");
+    background-image: url("../button/vetement.png");
     background-color: transparent;
     background-repeat: no-repeat;
     
