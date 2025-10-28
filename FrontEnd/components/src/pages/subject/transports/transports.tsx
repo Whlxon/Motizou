@@ -1,14 +1,14 @@
 import { useNavigate } from 'react-router-dom'
-import './objets.css'
+import './transports.css'
 
-export default function Objects() {
+export default function Transports() {
     const navigate = useNavigate()
 
     return (
     <>
-    <div>
-      <h1>Apprentissage des Objets🚀</h1>
-      <p>Ici commencera ton parcours dans Motizou.</p>
+    <div className='title'>
+      <h1>Apprentissage des Transports</h1>
+      <h3>Ici commencera ton parcours dans Motizou.</h3>
     </div>
 
     <div className='learn'>

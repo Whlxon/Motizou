@@ -1,4 +1,7 @@
-
+.title {
+    background-color: rgba(255, 255, 255, 0.507);
+    border-radius: 20px;
+}
 
 .elephant{
     background-image: url('../button/elephant.png');
@@ -94,6 +97,23 @@
 
 .vetement:hover{
     scale: 120%;
+}
+
+.menu {
+    text-align: right;
+    margin-right: 3vw;
+}
+
+.menuButton {
+    background-color: rgb(255, 232, 156);
+    border-radius: 10px;
+    height: 3vh;
+    width: 3.5vw;
+    border: 0;
+}
+
+.menuButton:hover{
+    background-color: rgb(248, 226, 152)
 }
 
 .REA{

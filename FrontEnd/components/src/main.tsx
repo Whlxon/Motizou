@@ -2,14 +2,14 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import App from './mainPage/App'
-import Modes from './eachLearn/gameSelect/modes'
-import Animaux from './eachLearn/animaux/animaux';
-import Objets from './eachLearn/objets/objets';
-import Nourritures from './eachLearn/nourriture/nourritures';
-import Transports from './eachLearn/transports/transports';
-import Vetements from './eachLearn/vetements/vetements';
-import APropos from './eachLearn/aPropos/aPropos';
+import App         from './mainPage/App'
+import Modes       from './pages/gameSelect/modes'
+import Animaux     from './pages/subject/animaux/animaux';
+import Objets      from './pages/subject/objets/objets';
+import Nourritures from './pages/subject/nourriture/nourritures';
+import Transports  from './pages/subject/transports/transports';
+import Vetements   from './pages/subject/vetements/vetements';
+import APropos     from './pages/aPropos/aPropos';
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

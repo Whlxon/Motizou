@@ -1,13 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import { useEffect, useState } from "react";
+import type { gameObject } from '../../../model/words';
 import './animaux.css'
-
-export interface gameObject{
-    nom: String, 
-    imageLink: String, 
-    soundLink: String, 
-    select: boolean
-}
 
 export default function Animals() {
     const navigate = useNavigate();
@@ -59,16 +53,30 @@ export default function Animals() {
 
     return (
     <>
-      <div>
-        <h1>Apprentissage des Animaux🚀</h1>
-        <p>Ici commencera ton parcours dans Motizou.</p>
+      <div className='title'>
+        <h1>Apprentissage des Animaux</h1>
+        <h3>Ici commencera ton parcours dans Motizou.</h3>
         
       </div>
 
       <div className='learn'>
+        <div className='menu'>
+          <button className='menuButton'>
+            Niveau 1
+          </button>
+          <button className='menuButton'>
+            Niveau 2
+          </button>
+          <button className='menuButton'>
+            Niveau 3
+          </button>
+        </div>
+
         <h1 className="name">
           {animalCorrect?.nom}
         </h1>
+
+        
 
         {bonAnimal && (
           <h2>Bravo !</h2>
@@ -76,7 +84,7 @@ export default function Animals() {
 
         {hasClicked && !bonAnimal && (
           <h2>
-            Oh non, dommage 😢
+            Oh non, dommage...
           </h2>
         )}
 

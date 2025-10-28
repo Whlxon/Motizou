@@ -1,20 +1,11 @@
-
 import { gameObject } from "../model/objets.model";
 
 const listAnimals: gameObject[] = [
-    {nom: "éléphant", imageLink: "./images/elephant.png", soundLink: "./sounds/elephant.mp3", select: false},
-    {nom: "souris"  , imageLink: "./images/souris.png"  , soundLink: "./sounds/souris.mp3"  , select: false},
-    {nom: "chat"    , imageLink: "./images/chat.png"    , soundLink: "./sounds/chat.mp3"    , select: false},
-    {nom: "chien"   , imageLink: "./images/chien.png"   , soundLink: "./sounds/chien.mp3"   , select: false},
-    {nom: "cheval"  , imageLink: "./images/cheval.png"  , soundLink: "./sounds/cheval.mp3"  , select: false},
-    {nom: "vache"   , imageLink: "./images/vache.png"   , soundLink: "./sounds/vache.mp3"   , select: false},
-    {nom: "mouton"  , imageLink: "./images/mouton.png"  , soundLink: "./sounds/mouton.mp3"  , select: false},
-    {nom: "chèvre"  , imageLink: "./images/chevre.png"  , soundLink: "./sounds/chevre.mp3"  , select: false},
-    {nom: "poule"   , imageLink: "./images/poule.png"   , soundLink: "./sounds/poule.mp3"   , select: false},
+    {nom: "avion", imageLink: "./images/objets/avion.png", soundLink: "./sounds/objets/avion.mp3", select: false},
 ]
 
 
-export class animalsService {
+export class objetService {
     static isInList(object: gameObject, list: gameObject[]): boolean {
         
         for(let i = 0; i < list.length; i++){

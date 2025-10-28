@@ -1,16 +1,15 @@
 import { useNavigate } from 'react-router-dom'
-import './vetements.css'
+import './nourriture.css'
 
-export default function Vetements() {
+export default function Nourritures() {
     const navigate = useNavigate()
 
     return (
     <>
-    <div>
-      <h1>Apprentissage des Vetements🚀</h1>
+    <div className='title'>
+      <h1>Apprentissage de la Nourriture</h1>
       <p>Ici commencera ton parcours dans Motizou.</p>
     </div>
-    
     <div className='learn'>
     </div>
 
