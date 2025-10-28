@@ -3,26 +3,20 @@ import { animalsService } from "../services/animals.service";
 import { randomInt } from "crypto";
 
 export const animalsRoute = Router();
-let numberButton = 0; // 1, 2 or 3 (bc the is 3 buttons)
-
-const animals = [
-    {},
-    {},
-    {}
-]
+let numberSelected = 0; // 1, 2 or 3 (bc the is 3 buttons)
 
 animalsRoute.get("/", (req: Request, res: Response) => {
+    console.log("<Infos> Request: GET; From: / route")
     const treeAnimals = animalsService.getHazardAnimals();
 
-    numberButton = Math.floor(Math.random() * 3) + 1;
-
-    return res.json();
+    return res.status(200).json(treeAnimals);
 });
 
 
-animalsRoute.post("/:idButton", (req, res) => {
+animalsRoute.get("/:idButton", (req: Request, res: Response) => {
+    console.log("<Infos> Request: GET; From: /:idButton route")
     const idButton = req.params.idButton;
 
-    return res.status(200)
+    return res.status(200).send(idButton);
 })
 

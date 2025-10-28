@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import './page.css'
 
 export default function Modes() {
-    const navigate = useNavigate()
+    const navigate = useNavigate()   
 
     return (
     <>
@@ -11,7 +11,7 @@ export default function Modes() {
       <h3>Ici commencera ton parcours dans Motizou.</h3>
     </div>
     <div className='listButton'>
-        <button onClick={() => navigate('/animaux')} className='elephant'>
+        <button onClick={() => {navigate('/animaux')}} className='elephant'>
         </button>
         <br/>
         <button onClick={() => navigate('/objets')} className="objet">

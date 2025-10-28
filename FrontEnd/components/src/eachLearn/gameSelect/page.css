@@ -52,6 +52,36 @@
     scale: 120%;
 }
 
+.choice {
+    height: 120px;
+    width: 120px;
+    margin-top: 25vh;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    border: 0;
+}
+
+.choice:hover{
+    scale: 120%;
+}
+
+.next {
+    background-color: rgb(3, 212, 3);
+    margin-top: 5vh;
+    border: 0;
+    height: 5vh;
+    width: 7vw;
+    border-radius: 30px;
+}
+
+.next:hover {
+    background-color: rgb(1, 161, 1);
+}
+
+.name {
+    text-decoration: underline;
+}
+
 .vetement{
     background-image: url("../button/vetement.png");
     background-color: transparent;
