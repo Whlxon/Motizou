@@ -1,11 +1,7 @@
-<h1>Hello and Welcome to Motizou !!</h1>
-<h2>Motizou always with you ^^</h2>
+<h1>Hello and welcome to Motizou!</h1>
+<h2>Motizou is always with you! ^^</h2>
+Motizou is an educational app for children ages 7 to 12 who don't speak French. I created this app for personal use, but if you're interested, we can discuss making it accessible.
 
-Motizou is an educative app, for children from 7 to 12 years old who don't speak french.
-I made this app for a personnal use, but if you're interressed we can talk about this to have to have the app.
+I developed this app entirely in TypeScript with the React Framework and Vite. I'm learning this at school, so if something isn't perfect, that's normal, well... nobody's perfect! ^^
 
-I made this entier app in TypeScript with the React FrameWork and Vite,
-I'm learning this at school, so if something isn't perfect, it's normal, I mean... anyone is perfect ^^
-
-So welcome to Motizou,
-and good visite here !
+So welcome to Motizou and enjoy your visit!
