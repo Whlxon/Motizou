@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom'
+import { gameService } from '../../utils/gameLogique'
 import './page.css'
 
 export default function Modes() {
@@ -11,19 +12,19 @@ export default function Modes() {
       <h3>Ici commencera ton parcours dans Motizou.</h3>
     </div>
     <div className='listButton'>
-        <button onClick={() => {navigate('/animaux')}} className='elephant'>
+        <button onClick={() => {navigate('/game'); gameService.setType(0)}} className='elephant'>
         </button>
         <br/>
-        <button onClick={() => navigate('/objets')} className="objet">
+        <button onClick={() => {navigate('/game'); gameService.setType(1)}} className="objet">
         </button>
         <br/>
-        <button onClick={() => navigate('/nourritures')} className="nourriture">
+        <button onClick={() => {navigate('/game'); gameService.setType(2)}} className="nourriture">
         </button>
         <br/>
-        <button onClick={() => navigate('/transports')} className="transport">
+        <button onClick={() => {navigate('/game'); gameService.setType(3)}} className="transport">
         </button>
         <br/>
-        <button onClick={() => navigate('/vetements')} className="vetement">
+        <button onClick={() => {navigate('/game'); gameService.setType(4)}} className="vetement">
         </button>
     </div>
     <button onClick={() => navigate('/')} className='REA'>

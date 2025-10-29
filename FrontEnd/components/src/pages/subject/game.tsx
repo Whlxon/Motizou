@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import { useEffect, useState } from "react";
-import type { gameObject } from '../../../model/words';
-import './animaux.css'
+import { gameService } from '../../utils/gameLogique';
+import type { gameObject } from '../../model/words';
 
 export default function Animals() {
     const navigate = useNavigate();
@@ -13,8 +13,7 @@ export default function Animals() {
 
     const fetchAnimals = async () => {
       try {
-        const res = await fetch("http://localhost:3000/api/animals");
-        const data = await res.json();
+        const data = gameService.getHazardTypes();
         console.log("<Infos> BackEnd Data Recieve Successfully !")
         setAnimals(data);
 
